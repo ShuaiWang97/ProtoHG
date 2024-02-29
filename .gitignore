@@ -1,1 +1,3 @@
-HGB_hyper_data/
+*
+!
+*.pickle
