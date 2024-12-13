@@ -38,7 +38,7 @@ ACM, DBLP, WikiArt
 main_transformer.py
 utils.py
 ```
-You can download the dataset from [HGB_hyper_data](https://drive.google.com/drive/folders/1eLzxaXYhurXgXVssEEiAvEfSFqCgHAdS?usp=sharing)
+You can download the dataset from [HGB_hyper_data](https://drive.google.com/drive/folders/1-D7_ngtEH0GlqEDtwxdxtDkNVRduYzBZ?usp=sharing)
 
 
 ## Training
