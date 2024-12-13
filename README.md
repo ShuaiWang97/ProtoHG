@@ -1,6 +1,6 @@
 # ProtoHG
-Implementation for paper: Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks.  International conference of Multimedia Modelling 2024
-https://arxiv.org/pdf/2309.13092.pdf
+Implementation for paper: Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks. [paper](https://link.springer.com/chapter/10.1007/978-3-031-53311-2_34) International conference of Multimedia Modelling 2024 (oral)
+
 
 ## Pipeline
 <div align=center>
@@ -39,8 +39,6 @@ main_transformer.py
 utils.py
 ```
 You can download the dataset from [HGB_hyper_data](https://drive.google.com/drive/folders/1eLzxaXYhurXgXVssEEiAvEfSFqCgHAdS?usp=sharing)
-
-https://drive.google.com/drive/folders/1eLzxaXYhurXgXVssEEiAvEfSFqCgHAdS?usp=sharing
 
 
 ## Training
