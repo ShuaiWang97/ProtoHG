@@ -1,5 +1,5 @@
 # ProtoHG
-Implementation for paper: Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks. [paper](https://link.springer.com/chapter/10.1007/978-3-031-53311-2_34) International conference of Multimedia Modelling 2024 (oral)
+Implementation for paper: Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks. International Conference on Multimedia Modeling(MMM) Oral 2024 [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-53311-2_34)
 
 
 ## Pipeline
@@ -54,11 +54,17 @@ This repo is based on [HyperSage](https://github.com/worring/HyperMessage) and [
 
 If you find this repo useful, please consider cite: 
 ```
-@misc{wang2023prototypeenhanced,
-      title={Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks}, 
-      author={Shuai Wang and Jiayi Shen and Athanasios Efthymiou and Stevan Rudinac and Monika Kackovic and Nachoem Wijnberg and Marcel Worring},
-      year={2023},
-      eprint={2309.13092},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@InProceedings{10.1007/978-3-031-53311-2_34,
+author="Wang, Shuai
+and Shen, Jiayi
+and Efthymiou, Athanasios
+and Rudinac, Stevan
+and Kackovic, Monika
+and Wijnberg, Nachoem
+and Worring, Marcel",
+title="Prototype-Enhanced Hypergraph Learning for Heterogeneous Information Networks",
+booktitle="MultiMedia Modeling",
+year="2024",
+publisher="Springer Nature Switzerland",
 }
+```
