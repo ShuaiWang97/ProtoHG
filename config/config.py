@@ -12,7 +12,7 @@ seed: an integer list
 '''
 gpu = 0
 cuda = True
-seeds = [42] 
+seeds = [40, 41, 42] 
 split = 1
 
 
@@ -86,7 +86,7 @@ def parse():
 	p.add('--n_layer', type=int, default=n_layer, help='number of layer for transformer')
 	p.add('--loss', type=str, default=loss, help='type of loss for prototype')
 	p.add('--seeds', nargs='+', default=seeds,type=int, help='<Required> Set flag', required=True)
-	# p.add('--out', type=str, default=out, help='file to store statistics of experiment')
+	p.add('--out', type=str, default="output", help='file to store statistics of experiment')
 	p.add('-f') # for jupyter default
 
 	print(p.parse_args())

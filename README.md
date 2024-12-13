@@ -42,7 +42,9 @@ utils.py
 ## Training
 
 taking ACM dataset as an example:
-python main_transformer.py --data HGB_hyper_data --dataset ACM_hete --num_hidden 64 --n_head 4 --n_layer 3 --reg_p 1e-6 --loss sim --lr 0.01 
+```
+python main_transformer.py --data HGB_hyper_data --dataset ACM_hete --num_hidden 64 --n_head 4 --n_layer 3 --reg_p 1e-6 --loss sim --lr 0.01 --seeds 0 1 2 3 4  --wandb
+```
 
 ## Acknowledgement
 This repo is based on [HyperSage](https://github.com/worring/HyperMessage) and [HEGEL: Hpyergraph Transformer](https://github.com/hpzhang94/hegel_sum), thanks for their excellent work.

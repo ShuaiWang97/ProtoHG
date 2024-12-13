@@ -202,7 +202,7 @@ def main(args):
 
     # vis(features, centers.T, Y, args.dataset)
 
-    f1_micro_test, f1_macro_test = f1_score_(
+    f1_micro_test, f1_macro_test = utils.f1_score_(
         labels=Y[idx_test], pred=output[idx_test])
     print('Test summary: f1_micro_test : {:.4f}'.format(f1_micro_test.item()),
           'f1_macro_test : {:.4f}'.format(f1_macro_test.item()), 'time: {:.4f}s'.format(time.time() - t))
